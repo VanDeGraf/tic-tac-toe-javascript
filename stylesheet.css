@@ -1,0 +1,31 @@
+#app {
+    max-width: 16rem;
+    margin: 0 auto;
+}
+
+#container {
+    display: flex;
+    gap: 0.2rem;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    gap: 0.2rem;
+}
+
+.cell {
+    width: 3rem;
+    height: 3rem;
+    border: #3a3a3a 1px solid;
+    border-radius: 0.5rem;
+    background-color: #bba890;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cell:hover {
+    background-color: #bd9f7d;
+    cursor: pointer;
+}
